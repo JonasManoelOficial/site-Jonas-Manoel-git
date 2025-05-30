@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(22, 21, 21);
+    width: 100%;
+    
+}
+
+header{
+    background-color:#000000;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #ffff;
+    cursor: pointer;
+    font-size:30px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+    
+
+
+
+#logo {
+    width: 180px;
+    margin-left: 20px;
+}
+
+
+.imagem-jonas {
+    width:1000px;
+    height:1000px;
+   
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+section {
+display: inline-block;
+margin-left: 100px;
+
+}
+
+.nome {
+    font-weight: 1000px;
+    font-size: 200px;
+    line-height:100px;
+    color: #ffff;
+    
+    
+    
+   
+}
+.manoel {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+span:first-child {
+    background-color: darkgoldenrod;  
+}
+/*:first-child transforma somente a primeira letra ou imagem do paragrafo */
+
+
+.span-desenvolvedor {
+    font-size: 80px;
+    
+}
+
+.tecnicas {
+font-size: 50px;
+color: #ffff;
+}
+
+
+footer {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin: 40px 0 20px 0;
+    color: #ffff;
+}
+
+
+
+.copyrigth {
+    font-weight: 500;
+}
