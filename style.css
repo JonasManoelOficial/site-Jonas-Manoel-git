@@ -32,7 +32,7 @@ li {
     list-style: none;
     color: #ffff;
     cursor: pointer;
-    font-size:30px;
+    font-size:23px;
     transition: .5s;
     font-family: "Kdam Thmor Pro", sans-serif;
 }
@@ -47,8 +47,8 @@ li {
 
 
 .imagem-jonas {
-    width:1000px;
-    height:1000px;
+    width: 28%;
+    height: 20%;
    
 }
 
@@ -65,9 +65,11 @@ margin-left: 100px;
 
 .nome {
     font-weight: 1000px;
-    font-size: 200px;
-    line-height:100px;
+    font-size: 83px;
+    line-height: 5px;
     color: #ffff;
+    margin-top: 86px;
+    margin-left: 74px;
     
     
     
@@ -85,13 +87,15 @@ span:first-child {
 
 
 .span-desenvolvedor {
-    font-size: 80px;
+    font-size: 30px;
+    margin-left: 76px;
+    margin-left: 76px;
     
 }
 
 .tecnicas {
-font-size: 50px;
-color: #ffff;
+font-size: 24px;
+    color: #ffff;
 }
 
 
