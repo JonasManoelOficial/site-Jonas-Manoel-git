@@ -8,11 +8,12 @@ body {
     background-color: rgb(22, 21, 21);
     width: 100%;
     
+    
 }
 
 header{
     background-color:#000000;
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -41,20 +42,25 @@ li {
 
 
 #logo {
-    width: 180px;
+    width: 100px;
     margin-left: 20px;
 }
 
 
 .imagem-jonas {
-    width: 28%;
+    width: 55%;
     height: 20%;
+    margin-left: -60px;
+    
+
    
 }
 
 main {
     display: flex;
     align-items: center;
+    margin-top: -30px;
+    padding: block;
 }
 
 section {
@@ -64,20 +70,20 @@ margin-left: 100px;
 }
 
 .nome {
-    font-weight: 1000px;
-    font-size: 83px;
-    line-height: 5px;
+    font-weight: 700px;
+    font-size: 130px;
+    line-height: 45px;
     color: #ffff;
-    margin-top: 86px;
-    margin-left: 74px;
+    margin-top: 40px;
+    margin-left: -250px;
     
     
     
    
 }
 .manoel {
-    margin-top: 60px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 80px;
 }
 
 span:first-child {
@@ -87,15 +93,16 @@ span:first-child {
 
 
 .span-desenvolvedor {
-    font-size: 30px;
-    margin-left: 76px;
-    margin-left: 76px;
+    font-size:50px;
+    margin-left: -200px;
+    
     
 }
 
 .tecnicas {
-font-size: 24px;
+font-size: 40px;
     color: #ffff;
+    margin-left: -500px;
 }
 
 
@@ -106,7 +113,7 @@ footer {
     flex-direction: column;
     align-items: center;
     row-gap: 10px;
-    margin: 40px 0 20px 0;
+    margin: -10px 0 20px 0;
     color: #ffff;
 }
 

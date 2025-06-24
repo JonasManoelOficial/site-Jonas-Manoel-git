@@ -1,0 +1,215 @@
+* { 
+    margin: 0
+}
+
+
+
+#capa-the-chousen {
+    background-image: url("https://i.pinimg.com/originals/c9/6e/5a/c96e5a7ac07102ece3c6f91eaadfccd9.jpg");
+    position: end;
+    background-size: cover;
+    width:100%;
+    height: 600px;
+    transform: translateY(-20px);
+    translate: -20px;
+}
+
+
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px ;
+    
+    
+}
+.banner-1:hover {
+transform: translateY(-20px);
+translate: -20px;
+}
+
+.banner-2:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+.banner-3:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+.banner-4:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+.banner-5:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+.banner-6:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+.banner-7:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+.banner-8:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+.banner-9:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+.banner-10:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+.banner-11:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+.banner-12:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+.banner-13:hover {
+transform: translateY(-10px);
+translate: -20px;
+}
+
+
+.cards-content {
+    width: 150%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    
+
+}
+
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size:cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+
+}
+
+.banner-1 {
+    background-image: url('https://static.wixstatic.com/media/f9cc30_7c9471aa7634429aa1967a3855df96f7~mv2.jpg/v1/fill/w_568,h_378,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/f9cc30_7c9471aa7634429aa1967a3855df96f7~mv2.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://bloximages.newyork1.vip.townnews.com/gazette.com/content/tncms/assets/v3/editorial/6/f5/6f5aba26-b1c4-11ec-a9e9-f7c4986e8498/6247061226666.image.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOqn4xATY2p_fuM4Uq8YDNDQnuF5nos8r3QljrJU46XRQoTjmCYTCAJujkGvrSbXNxUiU&usqp=CAU');
+}
+
+.banner-4 {
+    background-image: url('https://i.pinimg.com/736x/41/f5/b7/41f5b7b944697284cb7ee151cf62772a.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://i.pinimg.com/736x/ea/c0/0e/eac00e8ffa030b8fd4dc37a409b3742f.jpg');
+}
+
+.banner-6 {
+    background-image: url('https://cdn.culturagenial.com/imagens/abe-martell-big-james-cke.jpg?class=article');
+}
+
+.banner-7 {
+    background-image: url('https://geracaoeleita.blog/wp-content/uploads/2022/12/2249117ccdcc4231b72166be8b02667c.jpg?w=1024');
+}
+
+.banner-8 {
+    background-image: url('https://i.pinimg.com/736x/af/97/50/af9750541b56e615a8e72e8af5223105.jpg');
+}
+
+.banner-9 {
+    background-image: url('https://media.guiame.com.br/archives/2022/04/22/818630652-judas.jpg');
+}
+
+.banner-10 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BODRiOTFkZWYtZDZjMy00ZThjLWFhZGUtYTExZGU4M2VlYjZiXkEyXkFqcGc@._V1_.jpg');
+}
+
+.banner-11 {
+    background-image: url('https://i.pinimg.com/736x/7b/26/23/7b2623b66d8fa908aa95a794ac7877c9.jpg');
+}
+
+.banner-12 {
+    background-image: url('https://aventurasnahistoria.com.br/media/uploads/2025/02/the-chosen-12.jpg');
+}
+
+
+
+span {
+    color: #000000;
+    font-family: "Kdam Thmor Pro", sans-serif;
+
+}
+
+footer {
+    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+footer img{
+    width: 200px;
+    margin: 20px 20px;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+ 
+
+.btn-voltar {
+   z-index: 1000;
+    position: fixed; /* Faz o botão ficar fixo na tela */
+    top: 10px; /* Distância do topo da página */
+    left: 10px; /* Distância da esquerda da página */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor quando passa por cima */
+    
+}
+
+.btn-voltar:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+    
+}
