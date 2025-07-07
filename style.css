@@ -7,7 +7,7 @@
 
 body {
     background-color: rgb(22, 21, 21);
-    height: 50%;
+    height: 40%;
 }
 
 video {
@@ -57,14 +57,14 @@ main {
 }
 
 #logo {
-    width: 200px;
+    width: 100px;
     margin-left: 20px;
 }
 .imagem-jonas {
     width: 50%;
     height: 120%;
-    margin-left: -400px;
-    margin-top: -50px;
+    margin-left: -100px;
+    margin-top:20px;
     position: relative;
       
 }
@@ -75,16 +75,17 @@ margin-top: -160px;
 
 }
 .nome {
-    font-weight: 900px;
-    font-size: 200px;
-    line-height: 160px;
+    font-weight: 100px;
+    font-size: 150px;
+    line-height: 120px;
     color: #ffff;
     margin-top: 40px;
-    margin-left: -100px;
+    margin-left: -30px;
            
 }
 .manoel {
     color: blue;
+    margin-bottom: 20px;
 }
 .span-desenvolvedor {
     background-color: darkgoldenrod; 
@@ -95,7 +96,7 @@ margin-top: -160px;
 }
 .span-desenvolvedor {
     font-size:50px;
-    margin: -100px;
+    margin-left: -20px;
     padding: 10px;
     
     
@@ -103,16 +104,15 @@ margin-top: -160px;
 .conhecimentos {
     font-size: 50px;
     color: #ffffff;
-    margin-left: -100px;
+    margin-left:-15px;
 }
 footer {
     width: 100%;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 10px;
-    margin: -10px 0 20px 0;
     color: #ffff;
 }
 .copyrigth {
